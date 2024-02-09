@@ -49,6 +49,6 @@ export async function getStaticProps() {
         id:meetup._id.toString()
       }))
     },
-    revalidate: 10, //For updating the UI whenever the Requests are Coming
+    revalidate: 1, //For updating the UI whenever the Requests are Coming
   };
 }
